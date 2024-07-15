@@ -1,0 +1,18 @@
+books = int(input("Enter books purchased this month:"))
+if(0 <= books < 2):
+    points = 0
+    print("Points earned:",points)
+Else if(2 <= books < 4):
+    points = 5
+    print("Points earned:",points)
+Else if(4 <= books < 6):
+    points = 15
+    print("Points earned:",points)
+Else if(6 <= books < 8):
+    points = 30
+    print("Points earned:",points)
+Else if(8 <= books):
+    points = 60
+    print("Points earned:",points)
+else:
+    print("Invalid Input(Please enter a positive number)")

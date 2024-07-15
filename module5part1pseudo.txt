@@ -1,0 +1,13 @@
+Int total_rain = 0
+Int total_months = 0
+
+years = input(How many years?)
+for years from 1 to years +1
+    for month from 1 to 12:
+        rain = input(How many inches of rain?)
+        total_rain += rain 
+        total_months += 1
+float avg = total_rain / total_months
+output("Number of months:",total_months,"months")
+output("Total rainfall:", total_rain,"inches")
+output("Average Rainfall:",avg,"inches")
